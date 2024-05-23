@@ -1,5 +1,5 @@
 
-local colors = {
+local mu_colors = {
   default_bg = '#212121',
   default_fg = '#E0E0E0',
   cursor_line = '#313131',
@@ -29,5 +29,5 @@ local colors = {
   purple = '#BA68C8',
 }
 
-return colors
+return mu_colors
 
