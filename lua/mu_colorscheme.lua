@@ -161,5 +161,5 @@ hl(0, '@keyword.import', {link = 'Include'})
 hl(0, '@keyword.directive', {link = 'PreProc'})
 
 -- LSP
-hl(0, '@lsp.type.macro.c', {link = 'Macro'})
+hl(0, '@lsp.type.macro', {link = 'Macro'})
 
