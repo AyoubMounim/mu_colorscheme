@@ -159,5 +159,7 @@ hl(0, 'Title', {link = 'Character'})
 -- Tree-sitter
 hl(0, '@keyword.import', {link = 'Include'})
 hl(0, '@keyword.directive', {link = 'PreProc'})
+
+-- LSP
 hl(0, '@lsp.type.macro.c', {link = 'Macro'})
 
