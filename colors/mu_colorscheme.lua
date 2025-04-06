@@ -1,3 +1,0 @@
-
-require('mu_colorscheme')
-
