@@ -7,7 +7,7 @@ local hl = vim.api.nvim_set_hl
 
 -- Preferred groups
 hl(0, "Comment", { fg = colors.grey, italic = true })
---hl(0, "Constant", { fg = colors.green })
+hl(0, "Constant", { link = "Number" })
 hl(0, "Identifier", { fg = colors.default_fg })
 --hl(0, "Statement", { fg = colors.cyan })
 hl(0, "PreProc", { fg = colors.purple })

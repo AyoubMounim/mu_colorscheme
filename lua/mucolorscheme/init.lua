@@ -16,7 +16,8 @@ M.setup = function(opts)
 end
 
 M._get_schemes_list = function()
-	return { "mucolorscheme_simple", "mucolorscheme_rich" }
+	local list = vim.api.nvim_get_runtime_file("colors/*.lua", true)
+	return list
 end
 
 M.print_schemes_list = function()
